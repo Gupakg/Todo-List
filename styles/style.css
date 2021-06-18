@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* .cf:before {
+    content: " ";
+    display: table;
+}
+.cf:after{
+    content: " ";
+    display: table;
+    clear: both;
+    zoom: 1;
+}
+/* 
+timing-function: ease-in-out;
+duration: 1s;
+delayRatio: 0.075s;
+
+bounceLimitKeyframe: 30%;
+bounceLimit: 50%; */ 
+
+
+body {
+    margin-top: 30px;
+    margin-left:30px;
+    background-color: #FFE181;
+    color: #696969;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 48px;
+    color: #927963;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: .5rem;
+    line-height: 1em;
+    text-align: center
+    font-family:'Roboto Slab', sans-serif;
+}
+
+
+.card {
+    background: orange;
+
+}
+
+.active {
+    background: rgb(142, 204, 142);
+}
+
+#inputText{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 30px;
+    box-shadow: inset 1px 1px 20px 0px rgba(134, 134, 134, 0.21);
+    border: 2px solid #C5C5C5;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background: rgb(189, 180, 143);
+}
+
+
+#output {
+    margin-top: 3%;
+    width: 750px;
+    height: 30px;
+}
+
+.card {
+margin-top: 3%;
+    width: 100%;
+
+}
+
+/* .btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+
